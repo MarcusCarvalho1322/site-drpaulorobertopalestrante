@@ -37,15 +37,15 @@ export function AboutSection() {
                     {/* Texto e Formação */}
                     <div className="space-y-10">
                         <div className="space-y-4">
-                            <h2 className="text-heading-md text-primary">Sobre Dr. Paulo Roberto Souza</h2>
+                            <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary">Sobre Dr. Paulo Roberto Souza</h2>
                             <div className="w-20 h-1.5 bg-primary rounded-full"></div>
                         </div>
 
-                        <div className="space-y-4 text-body text-primary/80">
-                            <p className="font-medium text-xl md:text-2xl leading-relaxed">
+                        <div className="space-y-4 text-primary/80">
+                            <p className="font-medium text-sm md:text-base leading-relaxed">
                                 Médico pela UFBA, com mais de 17 anos de experiência, o Dr. Paulo Roberto Souza é uma das vozes mais respeitadas em Saúde Mental e Psicologia Positiva no Brasil.
                             </p>
-                            <p>
+                            <p className="text-sm md:text-base">
                                 Autor, ele combina rigor científico com uma abordagem humanizada, ajudando líderes e organizações a construírem culturas de alto desempenho baseadas no bem-estar real.
                             </p>
                         </div>
@@ -61,18 +61,18 @@ export function AboutSection() {
                                     transition={{ delay: i * 0.1 }}
                                     className="flex items-start gap-4 group"
                                 >
-                                    <GraduationCap className="text-primary w-6 h-6 flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
-                                    <span className="text-body text-xl md:text-2xl text-primary/90">{item}</span>
+                                    <GraduationCap className="text-primary w-5 h-5 flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                                    <span className="text-sm md:text-base text-primary/90">{item}</span>
                                 </motion.div>
                             ))}
                         </div>
 
                         {/* Doctor's Quote */}
                         <div className="pt-10 border-t border-primary/10 text-center md:text-left">
-                            <p className="text-heading-sm italic text-primary/90 leading-relaxed text-2xl md:text-3xl">
+                            <p className="text-base md:text-lg italic text-primary/90 leading-relaxed">
                                 "A verdadeira transformação começa quando unimos a precisão da ciência com a sensibilidade humana."
                             </p>
-                            <p className="text-base font-bold text-muted-foreground mt-6 tracking-widest uppercase">
+                            <p className="text-xs font-bold text-muted-foreground mt-6 tracking-widest uppercase">
                                 — Dr. Paulo Roberto Souza
                             </p>
                         </div>
