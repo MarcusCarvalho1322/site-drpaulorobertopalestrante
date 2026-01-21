@@ -17,7 +17,7 @@ export function AboutSection() {
     return (
         <section id="sobre" className="py-24 bg-background relative overflow-hidden noise-texture">
             <div className="container px-6 md:px-12 mx-auto">
-                <div className="grid md:grid-cols-[1.2fr_1fr] gap-16 items-center">
+                <div className="grid md:grid-cols-2 gap-12 items-center">
 
                     {/* Imagem Flutuante */}
                     <motion.div
@@ -30,7 +30,7 @@ export function AboutSection() {
                         <img
                             src="/dr-paulo-about.png"
                             alt="Dr. Paulo Roberto Souza"
-                            className="w-full max-w-md h-auto object-contain drop-shadow-2xl"
+                            className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
                         />
                     </motion.div>
 
