@@ -16,7 +16,13 @@ export function AboutSection() {
 
     return (
         <section id="sobre" className="py-24 bg-background relative overflow-hidden noise-texture">
-            <div className="container px-6 md:px-12 mx-auto">
+            {/* Spotlight Effect */}
+            <div className="absolute inset-0 pointer-events-none">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-400/20 rounded-full blur-[120px] animate-pulse"></div>
+                <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-cyan-300/15 rounded-full blur-[100px]"></div>
+            </div>
+            
+            <div className="container px-6 md:px-12 mx-auto relative z-10">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
                     {/* Imagem Flutuante */}
@@ -27,10 +33,13 @@ export function AboutSection() {
                         transition={{ duration: 1 }}
                         className="relative flex justify-center items-center"
                     >
+                        {/* Spotlight sobre a foto */}
+                        <div className="absolute inset-0 bg-gradient-radial from-blue-400/30 via-cyan-300/20 to-transparent blur-2xl"></div>
+                        
                         <img
                             src="/dr-paulo-about.png"
                             alt="Dr. Paulo Roberto Souza"
-                            className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
+                            className="w-full max-w-lg h-auto object-contain drop-shadow-2xl relative z-10"
                         />
                     </motion.div>
 

@@ -247,3 +247,7 @@
 .btn-blue-border:hover::after {
   transform: rotate(45deg) translate(100%, 100%);
 }
+/* Spotlight Effects */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
