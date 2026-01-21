@@ -39,7 +39,7 @@ export function AboutSection() {
                         <img
                             src="/dr-paulo-about.png"
                             alt="Dr. Paulo Roberto Souza"
-                            className="w-full max-w-lg h-auto object-contain drop-shadow-2xl relative z-10"
+                            className="w-full max-w-sm md:max-w-md h-auto object-contain drop-shadow-2xl relative z-10"
                         />
                     </motion.div>
 
