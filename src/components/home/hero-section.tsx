@@ -39,7 +39,7 @@ export function HeroSection() {
                         className="inline-block"
                     >
                         <span className="px-4 py-1.5 text-xs font-medium tracking-widest uppercase text-white/80 border border-white/30 rounded-full backdrop-blur-sm">
-                            Dr. Paulo • Palestrante
+                            Palestrante
                         </span>
                     </motion.div>
 

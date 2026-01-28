@@ -12,6 +12,7 @@ export function AboutSection() {
         "Membro Titular da Sociedade Brasileira de Cardiologia",
         "Membro Titular da Sociedade Brasileira de Ecocardiografia",
         "Diretor Médico na Clínica EVAB",
+        "Autor do livro Coração em Equilibrio / Hábitos que salvam Vidas",
     ];
 
     return (
@@ -52,7 +53,7 @@ export function AboutSection() {
 
                         <div className="space-y-4 text-primary/80">
                             <p className="font-medium text-sm md:text-base leading-relaxed">
-                                Médico pela UFBA, com mais de 17 anos de experiência, o Dr. Paulo Roberto Souza é uma das vozes mais respeitadas em Saúde Mental e Psicologia Positiva no Brasil.
+                                Médico pela UFBA, com mais de 19 anos de experiência, o Dr. Paulo Roberto Souza é uma das vozes mais respeitadas em Saúde Mental e Psicologia Positiva no Brasil.
                             </p>
                             <p className="text-sm md:text-base">
                                 Autor, ele combina rigor científico com uma abordagem humanizada, ajudando líderes e organizações a construírem culturas de alto desempenho baseadas no bem-estar real.
