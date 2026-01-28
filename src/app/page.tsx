@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/home/hero-section";
 import { AboutSection } from "@/components/home/about-section";
 import { TalksSection } from "@/components/home/talks-section";
+import { BookSection } from "@/components/home/book-section";
 import { SocialProofSection } from "@/components/home/social-proof-section";
 import { ContactSection } from "@/components/home/contact-section";
 import { RoiCalculator } from "@/components/home/roi-calculator";
@@ -13,6 +14,7 @@ export default function Home() {
       <StatsSection />
       <AboutSection />
       <TalksSection />
+      <BookSection />
       <SocialProofSection />
       <RoiCalculator />
       <ContactSection />
