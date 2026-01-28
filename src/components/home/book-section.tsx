@@ -25,14 +25,14 @@ export function BookSection() {
                         style={{ perspective: "1000px" }}
                     >
                         <div className="relative">
-                            {/* Sombra/Glow */}
-                            <div className="absolute -inset-4 bg-gradient-to-r from-primary/30 to-accent/30 rounded-lg blur-xl"></div>
-                            
+                            {/* Fundo branco para capa real */}
+                            <div className="absolute -inset-3 bg-white rounded-xl shadow-2xl"></div>
+
                             {/* Imagem */}
                             <img
                                 src="/book-coração-equilibrio.jpg"
-                                alt="Coração em Equilibrio - Hábitos que salvam Vidas"
-                                className="relative w-full max-w-sm h-auto rounded-lg shadow-2xl border border-white/20"
+                                alt="Coração em Equilíbrio - Hábitos que salvam Vidas"
+                                className="relative w-full max-w-sm h-auto rounded-lg shadow-lg"
                             />
                         </div>
                     </motion.div>
@@ -76,11 +76,10 @@ export function BookSection() {
                         {/* Benefícios */}
                         <div className="grid grid-cols-2 gap-4 pt-4">
                             <div className="p-4 bg-white/10 rounded-lg border border-white/20 backdrop-blur">
-                                <p className="text-sm font-bold text-accent mb-1">+500</p>
-                                <p className="text-xs text-white/70">Páginas de conteúdo exclusivo</p>
+                                <p className="text-sm font-bold text-accent">Hábitos que prolongam Vidas</p>
                             </div>
                             <div className="p-4 bg-white/10 rounded-lg border border-white/20 backdrop-blur">
-                                <p className="text-sm font-bold text-accent mb-1">17</p>
+                                <p className="text-sm font-bold text-accent mb-1">19</p>
                                 <p className="text-xs text-white/70">Anos de pesquisa clínica</p>
                             </div>
                         </div>
@@ -92,13 +91,6 @@ export function BookSection() {
                                 className="bg-accent hover:bg-accent/90 text-slate-900 font-medium px-8 py-3 h-auto rounded-lg transition-all hover:scale-105"
                             >
                                 Pré-Encomendar Agora <ArrowRight className="ml-2 w-4 h-4" />
-                            </Button>
-                            <Button
-                                variant="outline"
-                                size="default"
-                                className="border-white/30 text-white hover:bg-white/10 px-8 py-3 h-auto rounded-lg"
-                            >
-                                Saiba Mais
                             </Button>
                         </div>
 
